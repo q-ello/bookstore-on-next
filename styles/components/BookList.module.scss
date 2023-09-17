@@ -1,0 +1,41 @@
+.books_cont {
+    position: relative;
+    padding-bottom: 74px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-top: 46px;
+
+    @media screen and (max-width: 1120px) {
+        padding-left: 0;
+    }
+}
+
+.btn {
+    height: 45px;
+    font-weight: 700;
+    font-size: 8px;
+    text-transform: uppercase;
+    width: 176px;
+    margin: 0 auto;
+    color: var(--button-to-buy);
+    border: 1px solid var(--button-to-buy);
+}
+
+.books {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 75px;
+
+    @media screen and (max-width: 1120px) and (orientation: landscape) {
+        column-gap: 30px;
+    }
+
+    @media screen and (max-width: 1120px) and (orientation: portrait) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

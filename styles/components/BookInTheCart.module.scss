@@ -1,0 +1,69 @@
+
+.book {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    &_info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &_title {
+        font-weight: 700;
+        font-size: 16px;
+        margin-bottom: 8px;
+        color: var(--base-text-color);
+        max-width: 200px;
+    }
+
+    &_authors {
+        font-weight: 400;
+        font-size: 10px;
+        color: var(--secondary-text-color);
+        margin-bottom: 11px;
+    }
+
+    &_rating_in_the_cart {
+        font-size: 10px;
+    }
+}
+
+.thumbnail {
+    box-shadow: 0px 24px 36px 0px #35315447;
+}
+
+.quantity {
+    width: 176px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--book-inactive);
+
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--secondary-text-color);
+}
+
+.minus {
+    position: relative;
+    bottom: 3px;
+}
+
+.plus {
+    position: relative;
+    top: 1px;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--base-text-color);
+}
+
+.delivery {
+    font-weight: 700;
+    font-size: 12px;
+    color: var(--secondary-text-color);
+}

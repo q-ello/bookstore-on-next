@@ -1,0 +1,13 @@
+.book_rating {
+    display: flex;
+    align-items: baseline;
+
+    .stars {
+        height: 12px;
+        margin-right: 6px;
+    }
+
+    .reviews {
+        text-transform: lowercase;
+    }
+}

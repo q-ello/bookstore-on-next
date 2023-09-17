@@ -1,0 +1,69 @@
+.profile_container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 87px;
+}
+
+.h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--base-text-color);
+}
+
+.profile_info {
+    display: flex;
+}
+
+.text_info {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.label {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.span_info {
+    font-size: 24px;
+    margin-bottom: 25px;
+
+    &:last-child {
+        margin-bottom: 41px;
+    }
+}
+
+.button {
+    padding: 18px;
+    width: 176px;
+    border: 1px solid var(--button-to-buy);
+    color: var(--button-to-buy);
+    font-weight: 700;
+    font-size: 8px;
+}
+
+.about {
+    background-color: var(--pink);
+    width: 353px;
+    height: 345px;
+    padding: 17px 29px;
+    text-align: center;
+    box-shadow: 0px 24px 36px 0px #35315447;
+}
+
+.h5 {
+    font-weight: 700;
+    margin-bottom: 29px;
+    color: var(--black);
+    font-size: 12px;
+}
+
+.lorem_ipsum {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14.63px;
+    color: var(--secondary-text-color);
+    text-align: left;
+}
