@@ -65,7 +65,7 @@ const UserLogIn = () => {
         logged_in
             ? <div className={st.user_logout}>
                 < Link className={pathname === '/profile' ? st.active : ''
-                } href={'/'} > <h4 className={st.head_text}>{name}</h4></Link>
+                } href={'/profile'} > <h4 className={st.head_text}>{name}</h4></Link>
                 <Button className={st.button} onClick={() => { dispatch(logOut()) }}>
                     LOG OUT
                 </Button>
